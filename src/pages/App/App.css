@@ -2,3 +2,7 @@ body {
     height: 100vh;
     font-family: 'EB Garamond', serif;
 }
+
+.main-container {
+    margin: 5vmin;
+}
