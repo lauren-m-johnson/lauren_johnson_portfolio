@@ -23,6 +23,19 @@ export default function About() {
                     part of programming is that there is always something new to learn.
                     </p>
                 </div>
+                <section id='skills'>
+                    <h2>Skills</h2>
+                    <ul>
+                        <li><img src="images/html-5.png" /></li>
+                        <li><img src="images/css-3.png" /></li>
+                        <li><img src="images/js.png" /></li>
+                        <li><img src="images/database.png" /></li>
+                        <li><img src="images/python.png" /></li>
+                        <li><img src="images/react.png" /></li>
+                        <li><img src="images/django.png" /></li>
+                        <li><img src="images/json.png" /></li>
+                    </ul>
+                </section>
             </div>
         </div>
     )

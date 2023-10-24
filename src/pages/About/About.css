@@ -7,7 +7,28 @@
 #text-container {
     margin: 0 15vmin;
 }
+
 #lauren-img {
     width: 35vmin;
     border-radius: 100%;
+}
+
+#skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#skills ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    gap: 10vmin;
+    margin-top: 2vmin;
+    padding: 0;
+}
+
+#skills img {
+    height: 8vmin;
 }
