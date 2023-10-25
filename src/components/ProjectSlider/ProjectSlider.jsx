@@ -1,6 +1,5 @@
 import { useKeenSlider } from "keen-slider/react";
 import { Link } from 'react-router-dom';
-import ProjectThumbnails from "../ProjectThumbnails/ProjectThumbnails";
 import "keen-slider/keen-slider.min.css";
 import "./ProjectSlider.css";
 
@@ -75,7 +74,6 @@ export default function ProjectSlider() {
                     <h2>Browser Game</h2>
                 </div>
             </div>
-            <ProjectThumbnails />
         </>
     )
 }
