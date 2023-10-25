@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './About.css';
 
 export default function About() {
@@ -36,6 +37,9 @@ export default function About() {
                         <li><img src="images/json.png" /></li>
                     </ul>
                 </section>
+                <Link to='/projects'>
+                    <button>View Projects</button>
+                </Link>
             </div>
         </div>
     )

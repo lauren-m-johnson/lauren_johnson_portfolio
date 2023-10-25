@@ -4,6 +4,11 @@
     align-items: center;
 }
 
+#about button {
+    margin: 3vmin 0;
+    padding: 1vmin;
+}
+
 #text-container {
     margin: 0 15vmin;
 }
@@ -25,7 +30,7 @@
     list-style: none;
     align-items: center;
     gap: 10vmin;
-    margin-top: 2vmin;
+    margin: 5vmin 0;
     padding: 0;
 }
 

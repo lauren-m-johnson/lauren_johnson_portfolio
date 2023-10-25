@@ -7,7 +7,7 @@ export default function NavBar() {
             <img src='/images/logo-transparent.png' alt='Logo with name, Lauren Johnson and retro floppy disk image' />
             <div id='nav-links'>
                 <Link to='/'>About</Link>
-                <Link to='/services'>Projects</Link>
+                <Link to='/projects'>Projects</Link>
                 <Link to='/contact'>Contact</Link>
             </div>
         </div>
