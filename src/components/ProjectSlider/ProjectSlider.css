@@ -3,11 +3,18 @@
     height: 50vmin;
 }
 
-.thumbnail-container {
+#thumbnail-container {
     display: flex;
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+    padding: 4vmin;
+    gap: 3vmin;
+    background-color: rgb(206, 203, 203);
+    width: 181vmin;
 }
 
-.thumbnail-container img {
+#thumbnail-container img {
     height: 20vmin;
 }
 
