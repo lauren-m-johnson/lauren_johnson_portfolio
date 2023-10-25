@@ -1,12 +1,10 @@
-import ProjectSlider from "../ProjectSlider/ProjectSlider";
+import ProjectThumbnails from "../ProjectThumbnails/ProjectThumbnails";
 
 export default function Project4() {
     return (
         <div id='main-container'>
             <div id='projects'>
                 <h1>Projects</h1>
-                <h3>Click a Project to View more</h3>
-                <ProjectSlider />
             </div>
             <section id='project-container'>
                 <div id='project-img'>
@@ -21,6 +19,10 @@ export default function Project4() {
                     <a href="https://github.com/lauren-m-johnson/Project-1-Slot-Machine" target="_blank" rel='noreferrer'>Visit GitHub</a>
                 </div>
             </section>
+            <div id='projects'>
+                <h3>Click a Project to View more</h3>
+                <ProjectThumbnails />
+            </div>
         </div>
     )
 }
