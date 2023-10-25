@@ -1,7 +1,12 @@
 .keen-slider img {
     width: 80vmin;
     height: 50vmin;
+    transition: filter 0.3s;
 }
+
+.keen-slider img:hover {
+    filter: brightness(1.5); 
+  }
 
 #thumbnail-container {
     display: flex;
@@ -16,15 +21,20 @@
 
 #thumbnail-container img {
     height: 20vmin;
+    transition: filter 0.3s;
 }
+
+#thumbnail-container img:hover {
+    filter: brightness(1.5); 
+  }
 
 [class^="number-slide"],
 [class*=" number-slide"] {
-  background: grey;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  height: 70vmin;
+    background: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 70vmin;
 }
