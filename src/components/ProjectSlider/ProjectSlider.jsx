@@ -20,7 +20,7 @@ export default function ProjectSlider() {
                 if (mouseOver) return
                 timeout = setTimeout(() => {
                     slider.next()
-                }, 4000)
+                }, 2000)
             }
         slider.on("created", () => {
             slider.container.addEventListener("mouseover", () => {
