@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import NavBar from '../../components/NavBar/NavBar'
 import About from '../About/About';
+import Resume from '../Resume/Resume';
 import Projects from '../Projects/Projects';
 import Project0 from '../../components/Project0/Project0';
 import Project1 from '../../components/Project1/Project1';
@@ -18,7 +19,8 @@ export default function App() {
     <Routes>
         <Route path='/' element={<About />} />
         <Route path='/projects/*' element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/resume' element={<Resume />} />
         <Route path='/project0' element={<Project0 />} />
         <Route path='/project1' element={<Project1 />} />
         <Route path='/project2' element={<Project2 />} />

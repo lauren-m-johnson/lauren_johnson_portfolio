@@ -3,6 +3,13 @@ body {
     font-family: 'EB Garamond', serif;
 }
 
+#section-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .main-container {
     margin: 5vmin;
 }

@@ -1,0 +1,11 @@
+#resume {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5vmin;
+}
+
+#resume-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
