@@ -1,11 +1,25 @@
 #resume {
     display: flex;
     flex-direction: column;
-    margin: 0 5vmin;
+    justify-content: center;
+    margin: 0 10vmin;
 }
 
 #resume-info {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+
+#resume-skills {
+    display: flex;
+}
+
+#resume h2, h3, h4 {
+    padding: 0 0 1vmin 0;
+    margin: 0;
+}
+
+#resume li {
+    padding-bottom: 1vmin;
 }

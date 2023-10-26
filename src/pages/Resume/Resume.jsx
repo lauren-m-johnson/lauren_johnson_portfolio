@@ -5,9 +5,44 @@ export default function Resume() {
         <div id='resume'>
             <div id='section-header'>
                 <h1>Resume</h1>
-                <button>Download Resume</button>
+                <a href='https://docs.google.com/document/d/1_yaJTYfk_uRq3jWYcX26D0IKhNrzLqgsBnkcseWqrbw/edit?usp=sharing' target="_blank" rel='noreferrer'><button>Download Resume</button></a>
             </div>
             <div id='resume-info'>
+            <h2>Skills</h2>
+                <div id='resume-skills'>
+                    <ul><h3>Languages</h3>
+                        <li>JavaScript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Python</li>
+                        <li>SQL</li>
+                    </ul>
+                    <ul><h3>Database</h3>
+                        <li>PostgresSQL</li>
+                        <li>MongoDB</li>
+                    </ul>
+                    <ul><h3>Libraries and Frameworks</h3>
+                        <li>React.js</li>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>Django</li>
+                        <li>Bootstrap</li>
+                        <li>Mongoose</li>
+                    </ul>
+                    <ul><h4>Other</h4>
+                        <li>RESTful Routing</li>
+                        <li>JSON API</li>
+                        <li>AWS</li>
+                    </ul>
+                    <ul><h4>Interpersonal Skills</h4>
+                        <li>Collaborative</li>
+                        <li>Creative</li>
+                        <li>Adaptive</li>
+                        <li>Strategic Problem Solver</li>
+                        <li>Personable</li>
+                        <li>Written and Verbal Communication</li>
+                    </ul>
+                </div>
                 <h2>Education</h2>
                 <h3>General Assembly | Software Engineering Immersive Program | Remote</h3>
                 <a href='https://drive.google.com/file/d/1BlvFZIyO8LObAZsYO_hFmBP7TJObu3sN/view' target="_blank" rel='noreferrer'>View Certificate</a>
@@ -30,12 +65,18 @@ export default function Resume() {
                 <ul>
                     <li>Founded and managed all aspects of the business, including marketing, client acquisition, financial management, and day-to-day operations. </li>
                     <li>Worked one on one with students to assess their needs and provide individualized lessons, set learning goals and meet set learning goals within 95% accuracy.</li>
+                    <li>Developed and implemented strategies to attract and retain clients in a competitive tutoring market.</li>
+                    <li>Maintained a positive and professional image for the company through effective communication and relationship building with clients, students, and parents.</li>
+                    <li>Utilized Google Suite to streamline administrative tasks, keep calendar, notes and improve efficiency in day-to-day operations.</li>
                 </ul>
                 <h3>Teacher | Potter Valley Community Unified School District | Potter Valley, CA</h3>
                 <h4>08/2015 - 06/2021</h4>
                 <ul>
                     <li>Developed and implemented innovative, technology-driven lessons in diverse subjects, resulting in an 80% increase in student math test scores.</li>
-                    <li>Managed accurate student data records, meeting strict deadlines and utilizing data analysis to drive targeted interventions and student success. </li>
+                    <li>Managed accurate student data records, meeting strict deadlines and utilizing data analysis to drive targeted interventions and student success.</li>
+                    <li>Utilized technology in the classroom and in remote settings including Zoom administration.</li>
+                    <li>Provided individualized support, differentiation and guidance to students with diverse needs to ensure their academic success and inclusion in the classroom.</li>
+                    <li>Managed accurate student data records, meeting strict deadlines and utilizing data analysis to drive targeted interventions and student success.</li>
                 </ul>
             </div>
         </div>
