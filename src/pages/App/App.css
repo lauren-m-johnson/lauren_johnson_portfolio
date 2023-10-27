@@ -5,7 +5,24 @@ body {
 }
 
 h1, h2, h3, h4 {
-    color: #30130C;
+    color: #40130F;
+}
+
+button {
+    font-family: 'Heebo', sans-serif;
+    font-size: 3vmin;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    background-color: #D96236;
+    color: #F9F7E9;
+    font-weight: 600;
+    border: none;
+    padding: 1vmin 2vmin;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ae502e;
+    color: #F9F7E9;
 }
 
 #section-header {
