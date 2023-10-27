@@ -8,10 +8,10 @@ export default function Project0() {
             </div>
             <section id='project-container'>
                 <div id='project-img'>
+                    <h1>Small Business Website</h1>
                     <img src="images/thumbnail-0.png" alt='webpage image' />
                 </div>
                 <div id='project-info'>
-                    <h1>Small Business Website</h1>
                     <h2>North Coast Junk Removal | October 2023</h2>
                     <h3>Client based website for a local small business.</h3>
                     <p>Worked with the client to agree upon design and created a wireframe. I utalized React for speed, JavaScript, HTML and CSS.</p>

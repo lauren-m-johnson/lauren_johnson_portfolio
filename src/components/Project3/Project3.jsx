@@ -8,10 +8,10 @@ export default function Project3() {
         </div>
         <section id='project-container'>
             <div id='project-img'>
+                <h1>Online Journal</h1>
                 <img src="images/thumbnail-3.png" alt='webpage image' />
             </div>
             <div id='project-info'>
-                <h1>Online Journal</h1>
                 <h2>My Chronicles | July 2023</h2>
                 <h3>Full-Stack Journaling web app designed to help users boost self-awareness, and cultivate a more mindful and fulfilling life.</h3>
                 <p>Created using MongoDB, Express.js, Node.js, JavaScript, HTML and CSS. This link is currently expiriencing issues due to Heroku, please view the video walk through.</p>

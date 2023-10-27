@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 5vmin;
 }
 
 #project-info {
@@ -13,14 +12,37 @@
     margin: 0 2vmin;
 }
 
+#project-info h2, h3 {
+    padding: 0;
+    margin: 0;
+}
+
 #project-container {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    background-color: #D98162;
+    border-radius: 5px;
+    margin: 0 5vmin 5vmin 5vmin;
+    padding: 0 0 0 4vmin;
+}
+
+#project-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5vmin 0;
+}
+
+#project-img h1 {
+    padding: 0;
+    margin: 0;
 }
 
 #project-img img {
     width: 60vmin;
-    padding: 3vmin;
     margin: 3vmin;
+    border-radius: 5px;
+    border: solid 1vmin #D96236;
 }

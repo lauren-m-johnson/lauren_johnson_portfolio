@@ -8,10 +8,10 @@ export default function Project1() {
         </div>
         <section id='project-container'>
             <div id='project-img'>
+                <h1>Online Forum</h1>
                 <img src="images/thumbnail-1.png" alt='webpage image' />
             </div>
             <div id='project-info'>
-                <h1>Online Forum</h1>
                 <h2>Supernatural Scribe | August 2023</h2>
                 <h3>Designed and built an online forum for users to share stories about the supernatural.</h3>
                 <p>I used a MERN(MongoDB, Express.js, React.js, Node.js)Stack as well as HTML, CSS and JavaScript.</p>

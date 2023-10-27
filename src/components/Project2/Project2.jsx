@@ -8,10 +8,10 @@ export default function Project2() {
         </div>
         <section id='project-container'>
             <div id='project-img'>
+                <h1>Communication Software</h1>
                 <img src="images/thumbnail-2.png" alt='webpage image' />
             </div>
             <div id='project-info'>
-                <h1>Communication Software</h1>
                 <h2>Pawfolio | August 2023</h2>
                 <h3>Full-Stack web app designed to help doggy day care owners communicate with their clients.</h3>
                 <p>This app was created collaboratively with 2 other programmers. We used Git Version Control, Python, Django, AWS, HTML and CSS. This link is currently expiriencing issues due to Heroku, please view the video walk through.</p>

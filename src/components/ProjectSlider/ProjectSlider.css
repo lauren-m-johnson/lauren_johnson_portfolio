@@ -2,39 +2,45 @@
     width: 80vmin;
     height: 50vmin;
     transition: filter 0.3s;
+    border-radius: 5px;
 }
 
 .keen-slider img:hover {
-    filter: brightness(1.5); 
+    filter: opacity(0.6); 
   }
 
 #thumbnail-container {
     display: flex;
     align-items: center;
-    margin: 0;
+    margin: 0 0 5vmin 0;
     justify-content: center;
     padding: 4vmin;
     gap: 3vmin;
-    background-color: rgb(206, 203, 203);
-    width: 181vmin;
+    background-color: #D96236;
+    width: 100%;
 }
 
 #thumbnail-container img {
     height: 20vmin;
     transition: filter 0.3s;
+    border-radius: 5px;
+    border: solid 1vmin #40130f42;
 }
 
 #thumbnail-container img:hover {
-    filter: brightness(1.5); 
+    filter: opacity(0.5); 
   }
 
 [class^="number-slide"],
 [class*=" number-slide"] {
-    background: grey;
+    background: #D98162;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     color: #fff;
     height: 70vmin;
+    margin: 5vmin 0 2vmin 0;
+    padding-top: 5vmin;
 }
