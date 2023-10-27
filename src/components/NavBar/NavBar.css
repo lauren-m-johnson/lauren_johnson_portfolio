@@ -14,8 +14,13 @@
     text-decoration: none;
     font-size: 5vmin;
     font-weight: bold;
+    color: #D96236;
 }
 
 #nav-bar img {
     height: 25vmin;
+}
+
+#nav-links a:hover {
+    color: #a44c2c; 
 }

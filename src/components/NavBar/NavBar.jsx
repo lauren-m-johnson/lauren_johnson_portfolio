@@ -4,7 +4,7 @@ import './NavBar.css';
 export default function NavBar() {
     return (
         <div id='nav-bar'>
-            <img src='/images/logo-transparent.png' alt='Logo with name, Lauren Johnson and retro floppy disk image' />
+            <img src='/images/logo.png' alt='Logo with name, Lauren Johnson' />
             <div id='nav-links'>
                 <Link to='/'>About</Link>
                 <Link to='/projects'>Projects</Link>

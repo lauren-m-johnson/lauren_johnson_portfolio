@@ -1,6 +1,11 @@
 body {
     height: 100vh;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Heebo', sans-serif;
+    background-color: #F9F7E9;
+}
+
+h1, h2, h3, h4 {
+    color: #30130C;
 }
 
 #section-header {
