@@ -8,40 +8,42 @@ export default function Resume() {
                 <a href='https://docs.google.com/document/d/1_yaJTYfk_uRq3jWYcX26D0IKhNrzLqgsBnkcseWqrbw/edit?usp=sharing' target="_blank" rel='noreferrer'><button>Download Resume</button></a>
             </div>
             <div id='resume-info'>
-            <h2>Skills</h2>
-                <div id='resume-skills'>
-                    <ul><h3>Languages</h3>
-                        <li>JavaScript</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Python</li>
-                        <li>SQL</li>
-                    </ul>
-                    <ul><h3>Database</h3>
-                        <li>PostgresSQL</li>
-                        <li>MongoDB</li>
-                    </ul>
-                    <ul><h3>Libraries and Frameworks</h3>
-                        <li>React.js</li>
-                        <li>Node.js</li>
-                        <li>Express.js</li>
-                        <li>Django</li>
-                        <li>Bootstrap</li>
-                        <li>Mongoose</li>
-                    </ul>
-                    <ul><h4>Other</h4>
-                        <li>RESTful Routing</li>
-                        <li>JSON API</li>
-                        <li>AWS</li>
-                    </ul>
-                    <ul><h4>Interpersonal Skills</h4>
-                        <li>Collaborative</li>
-                        <li>Creative</li>
-                        <li>Adaptive</li>
-                        <li>Strategic Problem Solver</li>
-                        <li>Personable</li>
-                        <li>Written and Verbal Communication</li>
-                    </ul>
+                <div id='resume-skills-container'>
+                    <h2>Skills</h2>
+                    <div id='resume-skills'>
+                        <ul><h3>Languages</h3>
+                            <li>JavaScript</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Python</li>
+                            <li>SQL</li>
+                        </ul>
+                        <ul><h3>Database</h3>
+                            <li>PostgresSQL</li>
+                            <li>MongoDB</li>
+                        </ul>
+                        <ul><h3>Libraries and Frameworks</h3>
+                            <li>React.js</li>
+                            <li>Node.js</li>
+                            <li>Express.js</li>
+                            <li>Django</li>
+                            <li>Bootstrap</li>
+                            <li>Mongoose</li>
+                        </ul>
+                        <ul><h3>Other</h3>
+                            <li>RESTful Routing</li>
+                            <li>JSON API</li>
+                            <li>AWS</li>
+                        </ul>
+                        <ul><h3>Interpersonal Skills</h3>
+                            <li>Collaborative</li>
+                            <li>Creative</li>
+                            <li>Adaptive</li>
+                            <li>Strategic Problem Solver</li>
+                            <li>Personable</li>
+                            <li>Written and Verbal Communication</li>
+                        </ul>
+                    </div>
                 </div>
                 <h2>Education</h2>
                 <h3>General Assembly | Software Engineering Immersive Program | Remote</h3>

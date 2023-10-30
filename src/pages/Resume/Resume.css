@@ -11,15 +11,37 @@
     align-items: flex-start;
 }
 
+#resume-skills-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #D98162;
+    border-radius: 5px;
+    padding: 5vmin;
+    margin: 5vmin 5vmin 5vmin 0;
+}
+
 #resume-skills {
     display: flex;
+}
+
+#resume-skills ul {
+    background-color: #d89f8b;
+    border-radius: 5px;
+    padding: 5vmin;
+    margin: 2vmin;
+    display: flex;
+    flex-direction: column;
+}
+
+#resume-skills h3 {
+    font-size: 3.5vmin;
+}
+
+#resume-skills li {
+    font-size: 3vmin;
 }
 
 #resume h2, h3, h4 {
     padding: 0 0 1vmin 0;
     margin: 0;
-}
-
-#resume li {
-    padding-bottom: 1vmin;
 }
