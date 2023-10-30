@@ -39,3 +39,28 @@
 #skills img {
     height: 8vmin;
 }
+
+@media screen and (max-width: 768px) {
+    #skills ul {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center; 
+        list-style: none;
+        gap: 10vmin;
+        margin: 0;
+        padding: 0;
+    }
+
+    #skills img {
+        width: 8vmin;
+        height: auto;
+    }
+
+    #about button {
+        font-size: 6vmin;
+    }
+
+    #text-container {
+        margin: 0 5vmin;
+    }
+}
