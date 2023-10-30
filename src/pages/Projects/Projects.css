@@ -46,3 +46,38 @@
     border-radius: 5px;
     border: solid 1vmin #D96236;
 }
+
+#projects-button {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    #more-projects {
+        display: none;
+    }
+
+    #thumbnail-container {
+        display: none;
+    }
+
+    #project-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #project-info {
+        margin: 0;
+        padding: 0 3vmin 5vmin 2vmin;
+    }
+
+    #projects-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5vmin;
+    }
+
+    #projects-button button {
+        font-size: 5vmin;
+    }
+}

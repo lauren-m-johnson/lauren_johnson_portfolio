@@ -1,4 +1,5 @@
 import ProjectThumbnails from "../ProjectThumbnails/ProjectThumbnails";
+import { Link } from "react-router-dom";
 
 export default function Project3() {
     return (
@@ -20,7 +21,12 @@ export default function Project3() {
                 <a href="https://github.com/lauren-m-johnson/My-Chronicles" target="_blank" rel='noreferrer'>Visit GitHub</a>
             </div>
         </section>
-        <div id='projects'>
+        <div id='projects-button'>
+            <Link to='/projects'>
+                <button>Back to Projects</button>
+            </Link>
+        </div>
+        <div id='more-projects'>
             <h3>Click a Project to View more</h3>
             <ProjectThumbnails />
         </div>
