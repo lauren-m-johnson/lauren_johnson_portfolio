@@ -45,3 +45,19 @@
     padding: 0 0 1vmin 0;
     margin: 0;
 }
+
+#education {
+    flex-direction: column;
+    background-color: #d89f8b;
+    border-radius: 5px;
+    padding: 5vmin;
+    margin-bottom: 5vmin;
+}
+
+#experience {
+    flex-direction: column;
+    background-color: #D98162;
+    border-radius: 5px;
+    padding: 5vmin;
+    margin-bottom: 5vmin;
+}
